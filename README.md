@@ -2,9 +2,26 @@
 
 ## How do I attempt this problem?
 
-1. Create a personal copy of this repository.
-2. Make your changes
-3. Submit a pull request to this repository when instructed.
+1. Download a copy of this repository.
+2. Study the behaviour of the code. Don't be afraid to experiment!
+3. Identify a bug.
+4. Describe what the bug is and a possible fix (even better if there's an actual
+   code fix).
+
+## What does an ideal solution look like?
+
+An ideal solution:
+
+1. Contains a test case that isolates the bug.
+2. A description of the root cause of the bug.
+    - In other words, changing the existing unit tests and demo code to get
+      'correct' behaviour is unlikely to be an actual fix. Often times, in
+      production code, changing client code is not feasible.
+3. A description (or code) of a fix that addresses the root cause.
+
+## Submissions
+
+Submission details will be announced on the commencement of the challenge.
 
 ## File descriptions
 
@@ -24,21 +41,3 @@ A bug is anything that causes the program to give an incorrect result or
 unexpected **behaviour**.
 
 `demo.py` should provide an example of how the program is expected to be used.
-
-## What should a submission contain?
-
-An ideal submission should contain:
-
-- Tests that correctly identify each bug.
-- Changes to main program logic that correctly addresses the root cause of
-    each bug.
-- The overall algorithm of the main program logic should not be changed. e.g.
-  Don't convert the binary search to a linear search.
-
-## How are submissions assessed?
-
-For each bug identified:
-
-- 1 point is awarded if there is a unit test that correctly isolates it and a
-  fix.
-- 0.5 point is awarded if there is just a fix.
